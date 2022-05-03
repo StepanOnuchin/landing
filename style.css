@@ -1,0 +1,192 @@
+* {
+	scroll-behavior: smooth;
+}
+header {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	background-color: black;
+}
+
+.menu {
+	background: rgba(255, 255, 255, 0.2);
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	position: center;
+	letter-spacing: 0.1em;
+}
+.slides {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: grid;
+}
+.fototext {
+	position: relative;
+	filter: grayscale(1);
+	transition: 1s;
+	width: 100%;
+	height: 100%;
+}
+.fototext:hover {
+	filter: grayscale(0.1);
+}
+.slogan {
+	position: relative;
+	margin-right: 45%;
+	margin-left: 10px;
+	margin-top: 90px;
+	padding: 5px 5px 5px 5px;
+	color: yellow;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	transform: rotate(-5deg);
+	background: black;
+
+	transition: invert 0.4s;
+}
+.slogan:hover {
+	filter: invert(100%);
+}
+.slide1 {
+	position: relative;
+	text-align: center;
+	background: url(123.png) no-repeat center top;
+	color: white;
+	width: 100%;
+	height: 490px;
+}
+.slide2 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	color: black;
+	width: 100%;
+	height: 450px;
+	/*border: 2px solid orange;*/
+}
+.pagelink1 {
+	display: flex;
+	margin-top: 125px;
+	margin-right: 200px;
+	justify-content: center;
+	flex-direction: column;
+	width: 200px;
+	height: 200px;
+	/*border: 6px solid orange;*/
+	transition: color 0.4s;
+}
+
+.pagelink2 {
+	display: flex;
+	margin-top: 125px;
+	justify-content: center;
+	flex-direction: column;
+	width: 200px;
+	height: 200px;
+	/*border: 6px solid orange;*/
+
+}
+.box1 {
+	height: 100%;
+	position: relative;
+	font-size: 190px;
+	color: gray;
+	/*border: 1px solid black;*/
+	margin-bottom: -50px;
+
+	transition: color 1s;
+}
+
+.box1 :hover {
+	color: black;
+}
+
+.gith {
+	text-align: center;
+	font-size: 40px;
+	background: red;
+	position: relative;
+	/*border: 2px solid orange;*/
+	font-family: roboto, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.box2 {
+	height: 100%;
+	position: relative;
+	font-size: 190px;
+	color: gray;
+	/*border: 1px solid black;*/
+	margin-bottom: -50px;
+
+	transition: color 1s;
+}
+
+.box2 :hover {
+	color: black;
+}
+.tiktok {
+	text-align: center;
+	font-size: 40px;
+	background: red;
+	position: relative;
+	/*border: 2px solid orange;*/
+	font-family: roboto, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.slide3 {
+	position: relative;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 450px;
+}
+.slide4 {
+	position: relative;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 450px;
+	background: red;
+}
+nav {
+	position: inherit;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 5px 30px;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+
+
+
+
+
+
+
+@media {
+	screen
+}
+
+
+
+
+
+
+
+
+
+
